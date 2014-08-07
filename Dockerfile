@@ -32,7 +32,7 @@ RUN ln -s config/Rakefile
 RUN ln -s config/_config.yml
 
 # Expose default Octopress port
-EXPOSE 4000
+#EXPOSE 4000
 
 # Run Octopress
-ENTRYPOINT ["rake", "preview"]
+#ENTRYPOINT ["rake", "preview"]
