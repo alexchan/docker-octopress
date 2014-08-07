@@ -9,7 +9,7 @@ RUN apt-get update
 RUN apt-get -y upgrade
 
 # Install depndencies
-RUN apt-get install -y unzip wget ruby-dev build-essential git vim
+RUN apt-get install -y unzip wget ruby-dev build-essential git vim nodejs
 
 # Build Octopress from github
 RUN wget --no-check-certificate -O /tmp/octopress.zip https://github.com/imathis/octopress/archive/master.zip
